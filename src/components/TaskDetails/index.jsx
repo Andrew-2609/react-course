@@ -8,8 +8,6 @@ const TaskDetails = () => {
     
     const params = useParams();
 
-    console.log(params);
-
     return (
         <>
             <div className="back-button-container">

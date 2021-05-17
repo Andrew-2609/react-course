@@ -1,8 +1,11 @@
 import React from 'react';
+import Task from './Task';
 
-const Tasks = () => {
+const Tasks = ({ tasks }) => {
     return (
-        <h1>Tasks</h1>
+        <>
+            {tasks.map(task => <Task task={task} />)}
+        </>
     );
 }
 

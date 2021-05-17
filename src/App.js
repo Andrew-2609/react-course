@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
-import Tasks from "./components/Tasks";
+import Tasks from "./components/Tasks/";
 
 const App = () => {
   // let message = 'Hello, World!';

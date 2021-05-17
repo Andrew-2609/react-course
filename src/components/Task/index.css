@@ -14,9 +14,10 @@
     cursor: pointer;
 }
 
-.remove-task-button {
+.remove-task-button, .see-task-details-button {
     background-color: #444;
     border: none;
     color: chartreuse;
     cursor: pointer;
+    font-size: 16px;
 }

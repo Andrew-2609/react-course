@@ -1,8 +1,11 @@
-import React from 'react';
+import React from "react";
+import "./index.css"
 
 const AddTask = () => {
     return (
-        <input type="text" />
+        <div className="add-task-container">
+            <input className="add-task-input" type="text" />
+        </div>
     );
 }
  
